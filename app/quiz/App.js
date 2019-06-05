@@ -1,7 +1,9 @@
 import React from 'react';
-import { Button, View, Text, TextInput } from 'react-native';
+import { Button, View, Text, TextInput, ActivityIndicator } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation'; // 1.0.0-beta.27
-import { api } from './services/api';
+import Pusher from 'pusher-js/react-native';
+
+import pusherConfig from './pusher.json';
 
 const _apiServer = 'http://192.168.5.156:81/api/'
 
@@ -82,6 +84,9 @@ class NicknameScreen extends React.Component {
         .then((responseJson) => {
           if(responseJson){
             console.log(responseJson)
+              this.props.navigation.navigate('Question', {
+                  data: responseJson,
+              });
           }
         })
         .catch((error) =>{
@@ -112,6 +117,63 @@ class NicknameScreen extends React.Component {
   }
 }
 
+class QuestionScreen extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: props.navigation.getParam('data', ''),
+            isLoading: true,
+            answers : []
+        };
+        this.pusher = new Pusher(pusherConfig.key, pusherConfig); // (1)
+
+        this.chatChannel = this.pusher.subscribe('quiz-session-' + this.state.data['data']['quiz_sessions_id']); // (2)
+        this.chatChannel.bind('pusher:subscription_succeeded', () => { // (3)
+            this.chatChannel.bind('new.question', (data) => { // (4)
+                this.handleAnswers(data);
+            });
+        });
+    }
+
+    handleAnswers(data){
+        const answers = [];
+        data['answers'].forEach(function(element){
+            answers.push(element);
+        })
+        this.setState({
+            answers: answers,
+            isLoading: false
+        });
+    }
+
+
+    render() {
+        /* 2. Get the param, provide a fallback value if not available */
+        if(this.state.isLoading){
+            return(
+                <View style={{flex: 1, padding: 20}}>
+                    <ActivityIndicator/>
+                </View>
+            )
+        }
+        console.log(this.state.answers);
+
+        return (
+            <View style={{ flex: 1, alignItems: 'stretch',
+                flexDirection: 'column',
+                justifyContent: 'space-evenly', }}>
+                { this.state.answers.map((item, key)=>(
+                    <Button
+                        title = {item['answer']}
+                        onPress={this.checkQuizCode}
+                        key={key}
+                    />)
+                )}
+            </View>
+        );
+    }
+}
+
 const RootStack = createStackNavigator(
   {
     Home: {
@@ -120,6 +182,9 @@ const RootStack = createStackNavigator(
     Nickname: {
       screen: NicknameScreen,
     },
+      Question: {
+          screen: QuestionScreen,
+      },
   },
   {
     initialRouteName: 'Home',

@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\NewQuestion;
+use App\Question;
 use App\Quiz;
+use App\QuizSession;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class QuizController extends Controller
 {
@@ -15,6 +19,46 @@ class QuizController extends Controller
     public function index()
     {
         //
+        $quizzes = Quiz::All();
+
+        return view('quiz.index', compact('quizzes'));
+    }
+
+    public function getCode($id)
+    {
+        $quizCode = Str::random(5);
+        $quiz = Quiz::find($id);
+        $question = $quiz->questions->first;
+
+        $quizSession = QuizSession::firstOrCreate([
+            'quizcode' => $quizCode,
+            'question_id' => $question->question->id,
+            'quiz_id' => $quiz->id,
+        ]);
+
+        return view('quiz.getCode', compact('quiz', 'quizCode'));
+
+    }
+
+    public function start(Request $request)
+    {
+        $quizCode =$request->quizCode;
+        $quizId = $request->quizId;
+
+        $quiz = Quiz::find($quizId);
+
+        $question_id = $quiz->questions->first->id->id;
+        $answers = Question::find($question_id)->answers;
+        $question = $quiz->questions->first;
+
+        $request->session()->put('quizCode', $quizCode);
+        $request->session()->put('quizId', $quizId);
+
+        $quizSession = QuizSession::where('quizcode', $quizCode)->first();
+
+        event(new NewQuestion($quizSession));
+
+        return view('quiz.question', compact('quizCode', 'quiz', 'question', 'answers'));
     }
 
     /**

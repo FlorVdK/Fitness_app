@@ -1,0 +1,8 @@
+{
+  "appId":"797673",
+  "key":"68834745d397a7df1d98",
+  "secret":"ba6c25510843cc5742c9",
+  "cluster":"eu",
+  "encrypted":true,
+  "restServer":"http://192.168.5.156:81"
+}

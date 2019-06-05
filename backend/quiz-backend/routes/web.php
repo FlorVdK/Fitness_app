@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'QuizController@index');
+Route::get('/quiz/{id}', 'QuizController@getCode')->where('id', '[0-9]+');
+Route::post('/quiz/start', 'QuizController@start')->name('/quiz/start');
+Route::get('test', function () {
+    event(new App\Events\NewQuestion('Someone'));
+    return "Event has been sent!";
 });

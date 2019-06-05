@@ -40,7 +40,7 @@ class TempUserController extends Controller
     {
         //
         $quizcode = $request->quizcode;
-        $quiz_sessions_id = QuizSession::where('session_id', $quizcode)->first();
+        $quiz_sessions_id = QuizSession::where('quizcode', $quizcode)->first();
 
         $tempUser = new TempUser;
 
