@@ -7,11 +7,11 @@
         <button id="getCode" type="button" class="btn btn-primary">Get Quizcode</button>
         <p id="quizcode" style="margin-top: 5px; display: none;">{{ $quizCode }}</p>
         <form method="post" action="{{ route('/quiz/start') }}"
-              enctype="multipart/form-data" class="text-center border border-light">
+              enctype="multipart/form-data">
             {{ csrf_field() }}
             <input type="hidden" value="{{ $quizCode }}" id="quizCode" name="quizCode">
             <input type="hidden" value="{{ $quiz->id }}" id="quizId" name="quizId">
-            <button id="start type="button" class="btn btn-primary">Start</button>
+            <button id="start" type="submit" class="btn btn-primary" style="display:none">Start</button>
         </form>
     </div>
 

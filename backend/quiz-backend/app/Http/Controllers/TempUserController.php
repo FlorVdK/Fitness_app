@@ -47,8 +47,22 @@ class TempUserController extends Controller
         $tempUser->nickname = $request->nickname;
         $tempUser->api_token = Str::random(20);
         $tempUser->quiz_sessions_id = $quiz_sessions_id->id;
+        $tempUser->score = 0;
 
         $tempUser->save();
+
+        return response()->json(['data' => $tempUser->toArray()], 201);
+    }
+
+    public function addScore(Request $request)
+    {
+        $nickname = $request->nickname;
+
+        $tempUser = TempUser::where('nickname', $nickname)->get(0);
+
+        $tempUser->score +=1;
+
+        $tempUser->save;
 
         return response()->json(['data' => $tempUser->toArray()], 201);
     }

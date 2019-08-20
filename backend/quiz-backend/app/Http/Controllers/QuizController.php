@@ -48,17 +48,42 @@ class QuizController extends Controller
         $quiz = Quiz::find($quizId);
 
         $question_id = $quiz->questions->first->id->id;
-        $answers = Question::find($question_id)->answers;
-        $question = $quiz->questions->first;
+        $question = $quiz->questions->get(0);
 
-        $request->session()->put('quizCode', $quizCode);
         $request->session()->put('quizId', $quizId);
 
         $quizSession = QuizSession::where('quizcode', $quizCode)->first();
 
+        $request->session()->put('quizSessionId',$quizSession->id);
+        $request->session()->put('currentQuestionNr',1);
+
         event(new NewQuestion($quizSession));
 
-        return view('quiz.question', compact('quizCode', 'quiz', 'question', 'answers'));
+        return view('quiz.question', compact('quizCode', 'quiz', 'question'));
+    }
+
+    public function nextQuestion(Request $request)
+    {
+        $quizSessionId = $request->session()->get('quizSessionId');
+        $currentQuestionNr = $request->session()->get('currentQuestionNr');
+        $quizId = $request->session()->get('quizId');
+
+        $quiz = Quiz::find($quizId);
+        $question = $quiz->questions->get($currentQuestionNr + 1);
+
+        if(!($question=== null)){
+            $quizSession = QuizSession::find($quizSessionId)->first();
+            $quizSession->question_id = $currentQuestionNr + 1;
+            $quizSession->save();
+
+            event(new NewQuestion($quizSession));
+        
+            $request->session()->put('currentQuestionNr',$currentQuestionNr + 1);
+    
+            return view('quiz.question', compact('question'));
+        }else{
+            echo 'test';
+        }
     }
 
     /**

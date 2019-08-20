@@ -14,6 +14,7 @@
 Route::get('/', 'QuizController@index');
 Route::get('/quiz/{id}', 'QuizController@getCode')->where('id', '[0-9]+');
 Route::post('/quiz/start', 'QuizController@start')->name('/quiz/start');
+Route::post('/quiz/nextquestion', 'QuizController@nextQuestion')->name('/quiz/nextquestion');
 Route::get('test', function () {
     event(new App\Events\NewQuestion('Someone'));
     return "Event has been sent!";

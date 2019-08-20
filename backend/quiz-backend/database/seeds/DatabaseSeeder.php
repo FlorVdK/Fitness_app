@@ -16,7 +16,6 @@ class DatabaseSeeder extends Seeder
             CategoryTableSeeder::class,
             QuestionsTableSeeder::class,
             QuizTableSeeder::class,
-            AnswerTableSeeder::class,
         ]);
     }
 }

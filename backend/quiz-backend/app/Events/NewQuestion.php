@@ -16,7 +16,7 @@ class NewQuestion implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public $answers;
+    public $question;
 
     public $quizCodeId;
 
@@ -28,7 +28,7 @@ class NewQuestion implements ShouldBroadcast
     public function __construct(QuizSession $quizSession)
     {
         //
-        $this->answers = Question::find($quizSession->question_id)->answers;
+        $this->question = Question::find($quizSession->question_id);
         $this->quizCodeId = $quizSession->id;
     }
 

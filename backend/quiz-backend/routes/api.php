@@ -20,3 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('answers', 'AnswerController@index');
 Route::get('checkQuizCode/{code}', 'QuizSessionsController@checkQuizCode');
 Route::post('makeNewTempUser', 'TempUserController@store');
+Route::post('addscore', 'TempUserController@addScore');
