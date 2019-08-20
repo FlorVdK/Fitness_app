@@ -18,6 +18,8 @@ class LoginScreen extends Component {
   state = {
     username: "",
     quizcode: "",
+    userId:'',
+    channelId:'',
     enteredQuiz: false
   };
 
@@ -73,11 +75,13 @@ class LoginScreen extends Component {
 
     if (myUsername && currentQuizcode) {
       this.setState({
-        enteredQuiz: true
+        enteredQuiz: true,
+        userId:'',
+        channelId:'',
       });
 
-      this.pusher = new Pusher('pusher_app_key', {
-        cluster: 'pusher_app_cluster',
+      this.pusher = new Pusher(pusher_app_key, {
+        cluster: pusher_app_cluster,
         encrypted: true
       });
       
@@ -88,15 +92,20 @@ class LoginScreen extends Component {
             nickname: myUsername,
             quizcode: currentQuizcode
           }
-        );
+        )
+        .then((response) => {
+          console.log(response);
+            this.userId= response['data']['data']['id'],
+            this.channelId=response['data']['data']['quiz_sessions_id']
+        });
         console.log('logged in!');
       } catch (err) {
         console.log(`error logging in ${err}`);
       }
-      
-      this.quizChannel = this.pusher.subscribe('quiz-channel');
+
+      this.quizChannel = this.pusher.subscribe('quiz-session-'+this.channelId);
       this.quizChannel.bind("pusher:subscription_error", (status) => {
-        Alert.alert(
+        console.log(
           "Error",
           "Subscription error occurred. Please restart the app"
         );
@@ -108,6 +117,8 @@ class LoginScreen extends Component {
           pusher: this.pusher,
           myUsername: myUsername,
           currentQuizcode: currentQuizcode,
+          userId:this.userId,
+          channelId:this?channelId,
           quizChannel: this.quizChannel
         });
 

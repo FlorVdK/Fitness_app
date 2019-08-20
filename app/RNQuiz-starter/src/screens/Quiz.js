@@ -26,14 +26,19 @@ class Quiz extends Component {
   }
 
   constructor(props) {
+    console.log('test4');
     super(props);
     const { navigation } = this.props;
     
     this.pusher = navigation.getParam('pusher');
     this.myUsername = navigation.getParam('myUsername');
     this.quizChannel = navigation.getParam('quizChannel');
+    this.userId= navigation.getParam('userId');
+    this.channelId= navigation.getParam('channelId');
 
-    this.quizChannel.bind('question-given', ({ index, question, optionA, optionB, optionC, optionD, answer }) => {
+    this.quizChannel.bind('new.question', (data) => {
+      console.log(data);
+      console.log('test3');
       
       this.setState({
         display_question: true,
@@ -67,6 +72,7 @@ class Quiz extends Component {
     });
     
     this.quizChannel.bind('top-users', ({ users }) => {
+      console.log('test2');
       console.log('received top users: ', JSON.stringify(users));
       this.setState({
         top_users: users,
@@ -77,6 +83,7 @@ class Quiz extends Component {
 
 
   render() {
+    console.log('test1');
     
     const { 
       total_score,
