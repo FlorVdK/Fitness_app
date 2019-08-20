@@ -164,6 +164,7 @@ class QuestionScreen extends React.Component {
                 justifyContent: 'space-evenly', }}>
                 { this.state.answers.map((item, key)=>(
                     <Button
+                        style={{height: 50}}
                         title = {item['answer']}
                         onPress={this.checkQuizCode}
                         key={key}

@@ -16,6 +16,7 @@
             @endforeach
         </div>
         <h2 id="count" style="text-align: center; margin-top: 30px;" >10</h2>
+        <button type="button" class="btn btn-primary">Next question</button>
     </div>
 
 @endsection
@@ -36,7 +37,9 @@
                     // Display 'counter' wherever you want to display it.
                     if (counter === 0) {
                         var element = document.getElementById("correct");
-                        element.classList.add("bg-success");
+                        setTimeout(function () {
+                            element.classList.add("bg-success");
+                        }, 2000);
                         clearInterval(counter);
                     }
 

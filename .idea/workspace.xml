@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/quiz-backend/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/quiz-backend/resources/views/quiz/getCode.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/quiz-backend/resources/views/quiz/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/quiz-backend/resources/views/quiz/question.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/quiz-backend/resources/views/quiz/start.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/quiz/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/quiz/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/quiz/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/quiz/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/quiz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/quiz/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/quiz/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/quiz/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/QuizController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/QuizController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/QuizSessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/QuizSessionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/TempUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/TempUserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/app/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/app/Quiz.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/app/Quiz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/app/QuizSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/app/QuizSession.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/database/migrations/2019_06_03_175222_create_quiz_sessions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/database/migrations/2019_06_03_175222_create_quiz_sessions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/resources/views/Quiz/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/quiz/pusher.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/quiz-backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz-backend/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/quiz-backend/config/broadcasting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="663">
               <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
@@ -58,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/QuizController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="867">
               <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
               <folding>
                 <element signature="e#40#67#0#PHP" expanded="true" />
@@ -70,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/quiz-backend/app/Events/NewQuestion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="561">
               <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
                 <element signature="e#30#47#0#PHP" expanded="true" />
@@ -82,11 +58,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/quiz/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
+            <state relative-caret-position="17">
+              <caret line="169" column="33" selection-start-line="169" selection-start-column="33" selection-end-line="169" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#183#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,55 +150,20 @@
             <path>
               <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
               <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/wamp64/www/drupal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -253,21 +192,21 @@
       <option name="presentableId" value="Default" />
       <updated>1559675049605</updated>
       <workItem from="1559675051707" duration="7050000" />
-      <workItem from="1559727014670" duration="22705000" />
+      <workItem from="1559727014670" duration="23052000" />
+      <workItem from="1560253979346" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29755000" />
+    <option name="totallyTimeSpent" value="30156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
@@ -550,40 +489,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/config/broadcasting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/routes/channels.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/resources/views/welcome.blade.php" />
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/config/broadcasting.php" />
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/.env" />
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/routes/channels.php" />
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/routes/api.php" />
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/routes/web.php" />
     <entry file="file://$PROJECT_DIR$/backend/quiz-backend/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -591,10 +502,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/app/Events/StatusLiked.php">
+    <entry file="file://$PROJECT_DIR$/test/laravel-pusher-web-notifications/app/Events/StatusLiked.php" />
+    <entry file="file://$PROJECT_DIR$/backend/quiz-backend/config/broadcasting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -607,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/quiz-backend/app/Http/Controllers/QuizController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="867">
           <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
@@ -615,16 +527,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/quiz-backend/config/broadcasting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/quiz-backend/app/Events/NewQuestion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="561">
           <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding>
             <element signature="e#30#47#0#PHP" expanded="true" />
@@ -634,11 +539,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/quiz/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="169" column="33" selection-start-line="169" selection-start-column="33" selection-end-line="169" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#183#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
