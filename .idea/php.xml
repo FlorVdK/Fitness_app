@@ -1,47 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/app/src/main/java/com/example/app/PreferenceHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/IssueTokenTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/SocialAuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/PostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Grant/SocialGrant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/SocialAccount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/dashboard-api/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="wnm_vandekerckhove_flor" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>session_</find>
-      <find>bind</find>
-      <find>broa</find>
-      <find>BroadcastException</find>
-    </findStrings>
-    <dirStrings>
-      <dir>E:\www\wnm_vandekerckhove_flor\backend\quiz-backend\app\Http\Controllers</dir>
-    </dirStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/dashboard-api/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/phar-io/manifest" />
@@ -149,89 +108,10 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/spatie/laravel-permission" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1WQWuCZLboCle6kBTenHGxi8rN1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="" />
-      <created>1559675049605</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1559675049605</updated>
-      <workItem from="1559675051707" duration="7050000" />
-      <workItem from="1559727014670" duration="23052000" />
-      <workItem from="1560253979346" duration="54000" />
-      <workItem from="1579082522433" duration="891000" />
-      <workItem from="1579089431156" duration="2080000" />
-      <workItem from="1579102694755" duration="2333000" />
-      <workItem from="1579163467183" duration="8269000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2563" y="335" key="NewPhpClassDialog" timestamp="1579163611508">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2563" y="335" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579163611508" />
-    <state x="2714" y="444" key="NewPhpFileDialog" timestamp="1579163862608">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2714" y="444" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579163862608" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579163468070">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579163468070" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579082522848" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/dashboard-api/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
