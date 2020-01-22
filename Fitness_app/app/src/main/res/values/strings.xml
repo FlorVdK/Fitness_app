@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fitness_app</string>
+    <string name="register">Register</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="account_text">Already have an account ?</string>
+    <string name="register_text">Register</string>
+
+    <!-- validation errors -->
+    <string name="err_name">The name field is required</string>
+    <string name="err_email">The mail must be a valid email address</string>
+    <string name="err_password">The password must be at least 6 characters</string>
+    <string name="login">Login</string>
+    <string name="not_register_text">Not yet registered</string>
+</resources>

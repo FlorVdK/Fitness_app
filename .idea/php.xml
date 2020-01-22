@@ -106,6 +106,7 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

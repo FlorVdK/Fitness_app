@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRegimesTable extends Migration
+class CreateExercisesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class CreateRegimesTable extends Migration
      */
     public function up()
     {
-        Schema::create('Regimes', function (Blueprint $table) {
+        Schema::create('exercises', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('exercise_name');
+            $table->longText('description');
+            $table->string('src_image');
+            $table->string('src_video');
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreateRegimesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('Regimes');
+        Schema::dropIfExists('exercises');
     }
 }

@@ -6,10 +6,11 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use Notifiable, HasApiTokens;
+    use Notifiable, HasApiTokens, HasRoles;
 
     /**
      * The attributes that are mass assignable.
@@ -32,6 +33,11 @@ class User extends Authenticatable
 
     public function socialAccounts(){
         return $this->hasMany(SocialAccount::class);
+    }
+
+    public function coachHasTrainee()
+    {
+        return $this->hasOne('App\CoachHasTrainee', 'trainee_id', 'id');
     }
 
     /**

@@ -32,6 +32,7 @@
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/laravel/passport" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/laravel/ui" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/league/commonmark-ext-table" />
