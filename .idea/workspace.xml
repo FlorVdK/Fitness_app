@@ -2,83 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/androidTest/java/com/example/fitness_app/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/ExerciseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/LoginActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegimeActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegisterActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/UserActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/RetrofitBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_exercise.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_regime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/test/java/com/example/fitness_app/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_15_154754_create_coach_has_trainees_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_15_154824_create_regimes_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_15_154912_create_exercises_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/model.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/model.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/UserController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +203,8 @@
       <workItem from="1579335492103" duration="5892000" />
       <workItem from="1579360719745" duration="4684000" />
       <workItem from="1579422283058" duration="12002000" />
-      <workItem from="1579508804426" duration="11425000" />
+      <workItem from="1579508804426" duration="18129000" />
+      <workItem from="1579854303411" duration="5111000" />
     </task>
     <servers />
   </component>
@@ -291,10 +220,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="444" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579163862608" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579508807337">
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579854326648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579508807337" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579854326648" />
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579082522848" />
   </component>
   <component name="XDebuggerManager">
