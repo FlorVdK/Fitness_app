@@ -27,6 +27,6 @@ class CoachHasTrainee extends Model
 
     public function regime()
     {
-        return $this->hasOne('App\Regime', 'trainee_id', 'trainee_id');
+        return $this->hasMany('App\Regime', 'trainee_id', 'id');
     }
 }

@@ -2,12 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\User;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
     //
-    public function getTraineesOfCoach(){
-        return view('users.index');
+    public function index()
+    {
+        $trainees = Auth::user()->coachHasTrainee;
+        return view('users.index', ['trainees' => $trainees]);
+    }
+
+    public function getTrainee($id)
+    {
+        $trainee = User::find($id);
+        return view('users.detail', ['trainee' => $trainee]);
     }
 }

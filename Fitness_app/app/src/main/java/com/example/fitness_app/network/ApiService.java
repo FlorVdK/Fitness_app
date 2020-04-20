@@ -2,6 +2,7 @@ package com.example.fitness_app.network;
 
 import com.example.fitness_app.entities.AccessToken;
 
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -18,4 +19,7 @@ public interface ApiService {
     @POST("login")
     @FormUrlEncoded
     Call<AccessToken> login(@Field("username") String username, @Field("password") String password);
+
+    @GET("logout")
+    Call<AccessToken> logout();
 }

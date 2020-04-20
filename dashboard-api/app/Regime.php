@@ -12,7 +12,7 @@ class Regime extends Model
      * @var array
      */
     protected $fillable = [
-        'description', 'sets', 'traineeComment', 'coachComment', 'completion', 'trainee_id', 'exercises_id',
+        'description', 'sets', 'traineeComment', 'coachComment', 'completion', 'trainee_id', 'exercises_id', 'execution_date',
     ];
 
     public function trainee()
@@ -22,6 +22,6 @@ class Regime extends Model
 
     public function exercise()
     {
-        return $this->hasOne('App\Exercise', 'id', 'exercise_id');
+        return $this->hasOne('App\Exercise', 'id', 'exercises_id');
     }
 }

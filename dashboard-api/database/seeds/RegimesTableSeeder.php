@@ -1,9 +1,6 @@
 <?php
 
-use Carbon\Carbon;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Str;
 
 class RegimesTableSeeder extends Seeder
 {
@@ -15,6 +12,6 @@ class RegimesTableSeeder extends Seeder
     public function run()
     {
         //
-        $regimes = factory(App\Regime::class, 10)->create();
+        $regimes = factory(App\Regime::class, 50)->create();
     }
 }

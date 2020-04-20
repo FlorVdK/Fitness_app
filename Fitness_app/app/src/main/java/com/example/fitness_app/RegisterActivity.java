@@ -102,6 +102,11 @@ public class RegisterActivity extends AppCompatActivity {
         }
     }
 
+    @OnClick(R.id.go_to_login)
+    void goToRegister(){
+        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+    }
+
     private void handleErrors(ResponseBody response){
 
         ApiError apiError = Utils.converErrors(response);

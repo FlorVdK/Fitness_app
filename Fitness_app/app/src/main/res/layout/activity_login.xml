@@ -60,13 +60,15 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/go_to_login"
+            android:id="@+id/go_to_register"
             style="@style/Base.TextAppearance.AppCompat.Medium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:onClick="goToRegister"
             android:text="@string/not_register_text" />
 
         <Button

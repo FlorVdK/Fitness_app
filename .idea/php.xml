@@ -92,7 +92,6 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/league/oauth2-server" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/dashboard-api/vendor/league/commonmark-ext-table" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/league/event" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/defuse/php-encryption" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/myclabs/deep-copy" />
@@ -107,6 +106,9 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/spatie/laravel-permission" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/lanin/laravel-api-debugger" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

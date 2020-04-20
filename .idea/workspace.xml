@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/Interfaces/BaseInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/Interfaces/RegimeRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/RegimeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/config/passport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/js/components/passport/AuthorizedClients.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/js/components/passport/Clients.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/js/components/passport/PersonalAccessTokens.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/exercises/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/regimes/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/regimes/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/regimes/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/.rnd" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/.rnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/CoachHasTrainee.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/CoachHasTrainee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/ExerciseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/ExerciseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/RegimeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Regime.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Regime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/database/factories/RegimeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/factories/RegimeFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_18_135151_create_exercises_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_18_135151_create_exercises_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_19_121804_create_regimes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_19_121804_create_regimes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/ExercisesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/ExercisesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/RegimesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/RegimesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/views/users/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,17 +64,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="wnm_vandekerckhove_flor" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>session_</find>
-      <find>bind</find>
-      <find>broa</find>
-      <find>BroadcastException</find>
-    </findStrings>
-    <dirStrings>
-      <dir>E:\www\wnm_vandekerckhove_flor\backend\quiz-backend\app\Http\Controllers</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,7 +160,6 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/league/oauth2-server" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/dashboard-api/vendor/league/commonmark-ext-table" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/league/event" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/defuse/php-encryption" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/myclabs/deep-copy" />
@@ -143,21 +174,27 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/spatie/laravel-permission" />
       <path value="$PROJECT_DIR$/dashboard-api/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/dashboard-api/vendor/lanin/laravel-api-debugger" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WQWuCZLboCle6kBTenHGxi8rN1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dashboard-api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -167,7 +204,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\wnm_vandekerckhove_flor\dashboard-api" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -205,25 +247,48 @@
       <workItem from="1579422283058" duration="12002000" />
       <workItem from="1579508804426" duration="18129000" />
       <workItem from="1579854303411" duration="5111000" />
+      <workItem from="1579939780110" duration="16324000" />
+      <workItem from="1580202045704" duration="12549000" />
+      <workItem from="1580469469743" duration="722000" />
+      <workItem from="1580475616216" duration="21205000" />
+      <workItem from="1584357844012" duration="658000" />
+      <workItem from="1584440152147" duration="17288000" />
+      <workItem from="1586160849046" duration="15242000" />
+      <workItem from="1586770819818" duration="11809000" />
+      <workItem from="1587022092113" duration="2794000" />
+      <workItem from="1587130092113" duration="1203000" />
+      <workItem from="1587139982581" duration="7365000" />
+      <workItem from="1587387719013" duration="2526000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2563" y="335" key="NewPhpClassDialog" timestamp="1579163611508">
+    <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584611260160">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2563" y="335" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579163611508" />
-    <state x="2714" y="444" key="NewPhpFileDialog" timestamp="1579163862608">
+    <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584611260160" />
+    <state x="2563" y="335" key="NewPhpClassDialog" timestamp="1584701841999">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2714" y="444" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579163862608" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579854326648">
+    <state x="2563" y="335" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584701841999" />
+    <state x="2714" y="444" key="NewPhpFileDialog" timestamp="1581411662792">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2714" y="444" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581411662792" />
+    <state x="2381" y="163" key="SettingsEditor" timestamp="1587208814192">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="163" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587208814192" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587388498806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579854326648" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587388498806" />
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579082522848" />
   </component>
   <component name="XDebuggerManager">

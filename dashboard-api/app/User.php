@@ -31,11 +31,17 @@ class User extends Authenticatable
     ];
 
 
-    public function socialAccounts(){
+    public function socialAccounts()
+    {
         return $this->hasMany(SocialAccount::class);
     }
 
     public function coachHasTrainee()
+    {
+        return $this->hasMany('App\CoachHasTrainee', 'coach_id', 'id');
+    }
+
+    public function traineeHasCoach()
     {
         return $this->hasOne('App\CoachHasTrainee', 'trainee_id', 'id');
     }

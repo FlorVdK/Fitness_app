@@ -17,8 +17,8 @@ class CreateRegimesTable extends Migration
             $table->bigIncrements('id');
             $table->longText('description');
             $table->integer('sets');
-            $table->longText('traineeComment');
-            $table->longText('coachComment');
+            $table->longText('trainee_comment');
+            $table->longText('coach_comment');
             $table->double('completion');
             $table->date('execution_date');
 

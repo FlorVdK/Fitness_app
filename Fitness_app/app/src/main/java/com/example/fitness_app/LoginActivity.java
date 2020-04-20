@@ -103,6 +103,10 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    @OnClick(R.id.go_to_register)
+    void goToRegister(){
+        startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+    }
 
     private void handleErrors(ResponseBody response){
 
