@@ -2,55 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/Interfaces/BaseInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/Interfaces/RegimeRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/RegimeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/config/passport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/js/components/passport/AuthorizedClients.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/js/components/passport/Clients.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/js/components/passport/PersonalAccessTokens.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/exercises/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/regimes/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/regimes/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard-api/resources/views/regimes/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/.rnd" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/.rnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/CoachHasTrainee.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/CoachHasTrainee.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/ExerciseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/ExerciseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/RegimeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Regime.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Regime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Repositories/RegimeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Repositories/RegimeRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/factories/RegimeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/factories/RegimeFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_18_135151_create_exercises_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_18_135151_create_exercises_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_19_121804_create_regimes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/migrations/2020_01_19_121804_create_regimes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/ExercisesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/ExercisesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/RegimesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/RegimesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/views/users/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/resources/views/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-api/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/routes/web.php" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/defuse/php-encryption/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/dnoegel/php-xdg-base-dir/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/doctrine/inflector/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/doctrine/instantiator/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/doctrine/lexer/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/dragonmantank/cron-expression/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/egulias/email-validator/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/facade/flare-client-php/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/facade/ignition/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/facade/ignition-contracts/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/fideloper/proxy/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/filp/whoops/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/firebase/php-jwt/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/fzaninotto/faker/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/guzzlehttp/guzzle/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/guzzlehttp/promises/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/guzzlehttp/psr7/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/hamcrest/hamcrest-php/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/jakub-onderka/php-console-color/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/jakub-onderka/php-console-highlighter/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/laminas/laminas-diactoros/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/laminas/laminas-zendframework-bridge/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/lanin/laravel-api-debugger/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/laravel/framework/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/laravel/passport/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/laravel/tinker/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/laravel/ui/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/lcobucci/jwt/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/league/commonmark/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/league/event/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/league/flysystem/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/league/oauth2-server/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/mockery/mockery/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/monolog/monolog/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/myclabs/deep-copy/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/nesbot/carbon/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/nikic/php-parser/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/nunomaduro/collision/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/nyholm/psr7/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/opis/closure/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/paragonie/random_compat/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phar-io/manifest/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phar-io/version/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/php-http/message-factory/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpdocumentor/reflection-common/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpdocumentor/reflection-docblock/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpdocumentor/type-resolver/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpoption/phpoption/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpseclib/phpseclib/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpspec/prophecy/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpunit/php-code-coverage/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpunit/php-file-iterator/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpunit/php-text-template/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpunit/php-timer/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpunit/php-token-stream/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/phpunit/phpunit/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/psr/container/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/psr/http-factory/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/psr/http-message/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/psr/log/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/psr/simple-cache/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/psy/psysh/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/ralouphie/getallheaders/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/ramsey/uuid/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/scrivo/highlight.php/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/code-unit-reverse-lookup/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/comparator/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/diff/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/environment/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/exporter/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/global-state/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/object-enumerator/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/object-reflector/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/recursion-context/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/resource-operations/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/type/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/sebastian/version/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/spatie/laravel-permission/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/swiftmailer/swiftmailer/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/console/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/css-selector/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/debug/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/error-handler/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/event-dispatcher/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/event-dispatcher-contracts/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/finder/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/http-foundation/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/http-kernel/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/mime/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/polyfill-ctype/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/polyfill-iconv/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/polyfill-intl-idn/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/polyfill-mbstring/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/polyfill-php72/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/polyfill-php73/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/process/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/psr-http-message-bridge/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/routing/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/service-contracts/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/translation/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/translation-contracts/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/symfony/var-dumper/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/theseer/tokenizer/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/tijsverkoyen/css-to-inline-styles/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/vlucas/phpdotenv/" />
+    <ignored path="$PROJECT_DIR$/dashboard-api/vendor/webmozart/assert/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,15 +130,116 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/dashboard-api/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="wnm_vandekerckhove_flor" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3740">
+              <caret line="220" column="59" selection-start-line="220" selection-start-column="59" selection-end-line="220" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/Registercontroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/IssueTokenTrait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/config/auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AuthServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dashboard-api/.env" />
+        <option value="$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/dashboard-api/config/app.php" />
+        <option value="$PROJECT_DIR$/dashboard-api/routes/api.php" />
+        <option value="$PROJECT_DIR$/Fitness_dashboard_api/config/database.php" />
+        <option value="$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php" />
+        <option value="$PROJECT_DIR$/Fitness_dashboard_api/app/User.php" />
+        <option value="$PROJECT_DIR$/Fitness_dashboard_api/config/auth.php" />
+        <option value="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Fitness_dashboard_api/.env" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -179,9 +352,92 @@
       <path value="$PROJECT_DIR$/dashboard-api/vendor/lanin/laravel-api-debugger" />
     </include_path>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="188" />
+    <option name="y" value="-17" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
   <component name="ProjectId" id="1WQWuCZLboCle6kBTenHGxi8rN1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wnm_vandekerckhove_flor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wnm_vandekerckhove_flor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness_dashboard_api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -194,7 +450,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dashboard-api" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Laravel-Passport-Android-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -210,6 +466,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\wnm_vandekerckhove_flor\dashboard-api" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -259,14 +527,50 @@
       <workItem from="1587130092113" duration="1203000" />
       <workItem from="1587139982581" duration="7365000" />
       <workItem from="1587387719013" duration="2526000" />
+      <workItem from="1587760864251" duration="3173000" />
+      <workItem from="1587918445759" duration="770000" />
+      <workItem from="1588087618729" duration="763000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11002000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20735608" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584611260160">
@@ -291,20 +595,172 @@
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587388498806" />
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579082522848" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Auth/LoginController.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dashboard-api/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/database/factories/RegimeFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/app/Repositories/RegimeRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/app/Http/Controllers/RegimeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="89" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/config/database.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/app/Http/Controllers/Api/Auth/IssueTokenTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/SocialAuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-api/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="220" column="59" selection-start-line="220" selection-start-column="59" selection-end-line="220" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/Registercontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/IssueTokenTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitness_dashboard_api/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

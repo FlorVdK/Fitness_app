@@ -30,9 +30,9 @@ Route::middleware(['auth'])->group(function () {
 
 
     Route::get('/regime/{id}', 'RegimeController@getRegime')->name('getRegime');
-    Route::get('/regime/{id}/edit', 'RegimeController@getRegimeEdit')->name('getRegimeEdit');
+    Route::get('/regime/{id}/edit', 'RegimeController@getEditRegime')->name('getRegimeEdit');
     Route::get('/trainee/{id}/create_regime', 'RegimeController@makeNewRegime')->name('makeNewRegime');
 
-    Route::post('/regime/edit', 'RegimeController@regimeEdit')->name('regimeEdit');
+    Route::post('/regime/edit', 'RegimeController@editRegime')->name('regimeEdit');
     Route::post('/create_regime', 'RegimeController@createRegime')->name('createRegime');
 });

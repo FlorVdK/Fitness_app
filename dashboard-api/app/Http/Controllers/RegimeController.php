@@ -31,18 +31,6 @@ class RegimeController extends Controller
         $regime = $this->regimeRepository->create($request);
     }
 
-    public function editRegime(Request $request)
-    {
-        $regime = Regime::find($request->id);
-        $regime->description = $request->description;
-        $regime->sets = $request->sets;
-        $regime->trainee_id = $request->trainee_id;
-        $regime->exercice_id = $request->exercice_id;
-        $regime->execution_date = $request->execution_date;
-        $regime->completion = $request->completion;
-        $regime->save();
-    }
-
     public function deleteRegime($id)
     {
         $regime = $this->regimeRepository->delete($id);
@@ -59,22 +47,16 @@ class RegimeController extends Controller
         return view('regimes.detail', ['regime' => $regime]);
     }
 
-    public function getRegimeEdit($id)
+    public function getEditRegime($id)
     {
         $regime = $this->regimeRepository->find($id);
         $exercises = Exercise::all();
         return view('regimes.edit', ['regime' => $regime, 'exercises' => $exercises]);
     }
 
-    public function regimeEdit(Request $request)
+    public function editRegime(Request $request)
     {
-        $regime = $this->regimeRepository->find($request->id);
-        $regime->execution_date = $request->date;
-        $regime->exercises_id = $request->exercises_id;
-        $regime->sets = $request->sets;
-        $regime->description = $request->description;
-        $regime->coach_comment = $request->coach_comment;
-        $regime->save();
+        $regime = $this->regimeRepository->update($request->id, $request);
         return view('regimes.detail', ['regime' => $regime]);
     }
 }

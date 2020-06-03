@@ -31,7 +31,15 @@ class RegimeRepository implements RegimeRepositoryInterface
 
     public function update($id, $data)
     {
-        // TODO: Implement update() method.
+        $regime = Regime::find($id);
+        $regime->execution_date = $data->date;
+        $regime->exercises_id = $data->exercises_id;
+        $regime->sets = $data->sets;
+        $regime->description = $data->description;
+        $regime->coach_comment = $data->coach_comment;
+        $regime->save();
+
+        return $regime;
     }
 
     public function delete($id)
