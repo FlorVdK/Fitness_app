@@ -2,8 +2,10 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/dashboard-api/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/dashboard-api/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/defuse/php-encryption" />
       <excludeFolder url="file://$MODULE_DIR$/dashboard-api/vendor/dnoegel/php-xdg-base-dir" />
