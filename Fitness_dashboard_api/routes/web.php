@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/coach/dashboard');
 });
 
 //Route::get('index', 'RegimeController@index');
@@ -39,9 +39,13 @@ Route::middleware(['auth', 'permission:edit trainee'])->group(function () {
     Route::get('/regime/{id}', 'RegimeController@getRegime')->name('getRegime');
     Route::get('/regime/{id}/edit', 'RegimeController@getEditRegime')->name('getRegimeEdit');
     Route::get('/trainee/{id}/create_regime', 'RegimeController@makeNewRegime')->name('makeNewRegime');
+    Route::get('/trainee/{id}/make_setup_full_regime', 'RegimeController@makeSetUpFullRegime')->name('makeSetUpFullRegime');
+    Route::post('/trainee/{id}/setup_full_regime', 'RegimeController@setUpFullRegime')->name('setUpFullRegime');
 });
 
 Route::middleware(['auth', 'permission:use dashboard'])->group(function () {
     Route::get('/coach/dashboard', 'UserController@index');
+    Route::get('/coach/make_add_trainee', 'UserController@makeAddTrainee');
+    Route::get('/coach/add_trainee/{id}', 'UserController@addTrainee');
     Route::get('/trainee/{id}', 'UserController@getTrainee')->name('trainee');
 });

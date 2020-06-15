@@ -29,6 +29,7 @@ class RegisterController extends Controller
             'email' => request('email'),
             'password' => bcrypt(request('password'))
         ]);
+        $user->assignRole('trainee');
         return $this->issueToken($request, 'password');
     }
 }

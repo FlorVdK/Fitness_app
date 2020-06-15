@@ -21,15 +21,17 @@
                 </div>
                 <div class="form-group row">
                     <label for="colFormLabel" class="col-sm-2 col-form-label">Exercise</label>
-                    <select class="custom-select col-sm-4" id="exercises_id" name="exercises_id">
-                        @foreach($exercises as $exercise)
-                            @if($exercise->id == $regime->exercise->id)
-                                <option selected value="{{ $exercise->id }}">{{ $exercise->name }}</option>
-                            @else
-                                <option value="{{ $exercise->id }}">{{ $exercise->name }}</option>
-                            @endif
-                        @endforeach
-                    </select>
+                    <div class="col-sm-8">
+                        <select class="custom-select col-sm-4" id="exercises_id" name="exercises_id">
+                            @foreach($exercises as $exercise)
+                                @if($exercise->id == $regime->exercise->id)
+                                    <option selected value="{{ $exercise->id }}">{{ $exercise->name }}</option>
+                                @else
+                                    <option value="{{ $exercise->id }}">{{ $exercise->name }}</option>
+                                @endif
+                            @endforeach
+                        </select>
+                    </div>
                 </div>
                 <div class="form-group row">
                     <label for="colFormLabel" class="col-sm-2 col-form-label">Sets</label>

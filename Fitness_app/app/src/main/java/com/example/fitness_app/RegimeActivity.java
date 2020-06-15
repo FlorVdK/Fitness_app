@@ -76,14 +76,6 @@ public class RegimeActivity extends AppCompatActivity {
         call.enqueue(new Callback<RegimeResponse>() {
             @Override
             public void onResponse(Call<RegimeResponse> call, Response<RegimeResponse> response) {
-                Log.w(TAG, "onResponse: " + response );
-                Regime data = response.body().getData();
-                execution_dateTV.setText(data.getExecution_date());
-                descriptionTV.setText(data.getDescription());
-                completionTV.setText(data.getCompletion());
-                coach_commentTV.setText(data.getCoach_comment());
-                trainee_commentTV.setText(data.getTrainee_comment());
-                exercise_nameTV.setText(data.getExercise_name());
 
             }
 

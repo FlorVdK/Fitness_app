@@ -60,4 +60,17 @@ class RegimeController extends Controller
         $regime = $this->regimeRepository->update($request->id, $request);
         return view('regimes.detail', ['regime' => $regime]);
     }
+
+    public function makeSetUpFullRegime($id)
+    {
+        $exercises = Exercise::all();
+        $trainee = User::find($id);
+        return view('regimes.makeSetupFullRegime', ['exercises' => $exercises, 'trainee' => $trainee]);
+    }
+
+    public function setUpFullRegime(Request $request)
+    {
+        $trainee_id = $this->regimeRepository->setUpFullRegime($request);
+        return redirect('trainee/' . $trainee_id);
+    }
 }

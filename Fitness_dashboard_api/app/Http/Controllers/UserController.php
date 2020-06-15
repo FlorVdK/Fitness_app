@@ -19,4 +19,16 @@ class UserController extends Controller
         $trainee = User::find($id);
         return view('users.detail', ['trainee' => $trainee]);
     }
+
+    public function makeAddTrainee()
+    {
+        $trainees = User::role('trainee')->get();
+        return view('users.addTrainee', ['trainees' => $trainees]);
+    }
+
+    public function addTrainee($id)
+    {
+        Auth::user()->trainees()->attach($id);
+        return redirect('/coach/dashboard');
+    }
 }

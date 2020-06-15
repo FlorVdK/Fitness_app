@@ -11,6 +11,8 @@
                 <div class="col-6 col-md-4">
                     <a href="{{route('makeNewRegime', ['id' => $trainee->id])}}" class="btn btn-primary">Add new
                         regime</a>
+                    <a href="{{route('makeSetUpFullRegime', ['id' => $trainee->id])}}" class="btn btn-primary">Set up
+                        full regime</a>
                 </div>
             </div>
 

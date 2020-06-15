@@ -23,12 +23,14 @@
                 </div>
                 <div class="form-group row">
                     <label for="colFormLabel" class="col-sm-2 col-form-label">Exercise</label>
-                    <select class="custom-select col-sm-8" id="exercises_id" name="exercises_id">
-                        <option selected>Choose...</option>
-                        @foreach($exercises as $exercise)
-                            <option value="{{ $exercise->id }}">{{ $exercise->name }}</option>
-                        @endforeach
-                    </select>
+                    <div class="col-sm-8">
+                        <select class="custom-select" id="exercises_id" name="exercises_id">
+                            <option selected>Choose...</option>
+                            @foreach($exercises as $exercise)
+                                <option value="{{ $exercise->id }}">{{ $exercise->name }}</option>
+                            @endforeach
+                        </select>
+                    </div>
                 </div>
                 <div class="form-group row">
                     <label for="colFormLabel" class="col-sm-2 col-form-label">Sets</label>

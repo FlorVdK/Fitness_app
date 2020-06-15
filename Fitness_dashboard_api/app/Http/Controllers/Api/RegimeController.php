@@ -30,8 +30,6 @@ class RegimeController extends Controller
     {
         $regime = Regime::find($id);
         $exercise_name = $regime->exercise->name;
-        $regime = $regime->toArray();
-        $regime['exercise_name'] = $exercise_name;
 
         return response()->json(['data' => $regime], 200, [], JSON_NUMERIC_CHECK);
     }

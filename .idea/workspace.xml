@@ -2,116 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Fitness_app/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/ListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/EndPointVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/Regime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/RegimeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/RegimesResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/CustomAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/list_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wnm_vandekerckhove_flor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/regimes/makeSetupFullRegime.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/addTrainee.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegimeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegimeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/RetrofitBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/RetrofitBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_regime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_regime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/.rnd" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/.rnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/IssueTokenTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/IssueTokenTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/Registercontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/Registercontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/Auth/SocialAuthController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/PostController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Grant/SocialGrant.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Providers/SocialAuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/SocialAccount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/RegimeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Repositories/RegimeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Repositories/RegimeRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/hashing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/public/web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/routes/channels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-api/database/seeds/ExercisesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-api/database/seeds/ExercisesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness_dashboard_api/app/Http/Controllers/Api/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/fitness_dashboard_api/app/Http/Controllers/Api/RegimeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +232,8 @@
       <workItem from="1591258333580" duration="854000" />
       <workItem from="1591263842477" duration="24923000" />
       <workItem from="1591645487747" duration="1626000" />
-      <workItem from="1591690620280" duration="19886000" />
+      <workItem from="1591690620280" duration="20686000" />
+      <workItem from="1592046336761" duration="16600000" />
     </task>
     <servers />
   </component>
@@ -358,22 +262,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584611260160" />
-    <state x="2563" y="335" key="NewPhpClassDialog" timestamp="1584701841999">
+    <state x="2563" y="335" key="NewPhpClassDialog" timestamp="1591802788892">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2563" y="335" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584701841999" />
-    <state x="2714" y="444" key="NewPhpFileDialog" timestamp="1591364565466">
+    <state x="2563" y="335" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591802788892" />
+    <state x="2714" y="444" key="NewPhpFileDialog" timestamp="1592228210405">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2714" y="444" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591364565466" />
+    <state x="2714" y="444" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592228210405" />
     <state x="2381" y="163" key="SettingsEditor" timestamp="1587208814192">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587208814192" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591690621722">
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1592046335664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591690621722" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592046335664" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591710862993">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

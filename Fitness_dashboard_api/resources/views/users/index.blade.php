@@ -3,18 +3,18 @@
 @section('content')
     @if (count($trainees) > 0)
         <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">
+            <div class="card">
+                <div class="card-header">
                     Current Trainees
+                    <a href="/coach/make_add_trainee" class="btn btn-primary float-right">Add new trainee</a>
                 </div>
 
-                <div class="panel-body">
+                <div class="card-body">
                     <table class="table table-striped task-table">
 
                         <!-- Table Headings -->
                         <thead>
                         <th>Trainees</th>
-                        <th>&nbsp;</th>
                         </thead>
 
                         <!-- Table Body -->
