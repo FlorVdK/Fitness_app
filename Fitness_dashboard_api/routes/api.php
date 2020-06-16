@@ -21,4 +21,7 @@ Route::middleware('auth:api')->group(function () {
 
     Route::get('regimes', 'Api\RegimeController@index');
     Route::get('/regime/{id}', 'Api\RegimeController@getRegime');
+    Route::post('edit_regime', 'Api\RegimeController@editRegime');
+
+    Route::get('/exercise/{id}', 'Api\ExerciseController@getExercise');
 });

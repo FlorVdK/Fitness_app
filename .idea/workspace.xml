@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e82a74-cbbe-4815-a14b-b9b2889dc40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/regimes/makeSetupFullRegime.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/addTrainee.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/ExerciseResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/ExerciseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/ExerciseActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegimeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/RegimeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/RegimeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Repositories/RegimeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Repositories/RegimeRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/EndPointVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/EndPointVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/Regime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/entities/Regime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/RetrofitBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/java/com/example/fitness_app/network/RetrofitBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_exercise.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_exercise.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_regime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_app/app/src/main/res/layout/activity_regime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/app/Http/Controllers/Api/RegimeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/regimes/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/regimes/detail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness_dashboard_api/app/Http/Controllers/Api/RegimeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/fitness_dashboard_api/app/Http/Controllers/Api/RegimeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Fitness_dashboard_api/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness_dashboard_api/app/Http/Controllers/Api/ExerciseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/fitness_dashboard_api/app/Http/Controllers/Api/ExerciseController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +237,7 @@
       <workItem from="1591263842477" duration="24923000" />
       <workItem from="1591645487747" duration="1626000" />
       <workItem from="1591690620280" duration="20686000" />
-      <workItem from="1592046336761" duration="16600000" />
+      <workItem from="1592046336761" duration="21596000" />
     </task>
     <servers />
   </component>

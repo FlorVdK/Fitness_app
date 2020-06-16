@@ -17,7 +17,7 @@
             <div class="form-group row">
                 <label for="colFormLabel" class="col-sm-2 col-form-label">Exercise</label>
                 <div class="col-sm-8">
-                    <p>{{ $regime->exercise->name }}</p>
+                    <p><a href="{{ route('getExercise', $regime->exercise->id) }}">{{ $regime->exercise->name }}</a></p>
                 </div>
             </div>
             <div class="form-group row">

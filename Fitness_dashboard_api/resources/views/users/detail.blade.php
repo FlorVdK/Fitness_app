@@ -22,6 +22,7 @@
                     <th>execution_date</th>
                     <th>description</th>
                     <th>coachComment</th>
+                    <th>sets</th>
                     <th>completion</th>
                     <th>exercise</th>
                     </thead>
@@ -38,11 +39,15 @@
                                 {{ $regime->coach_comment }}
                             </td>
                             <td>
+                                {{ $regime->sets }}
+                            </td>
+                            <td>
                                 @if($regime->completion == 0)
                                     <i class="fas fa-times"></i>
                                 @elseif($regime->completion > 0 && $regime->completion < 100)
                                     <progress id="file"
-                                              value={{ $regime->completion }} max="100"> {{ $regime->completion }}%
+                                              value={{ $regime->completion }} max="{{ $regime->sets }}"> {{ $regime->completion }}
+                                        %
                                     </progress>
                                 @else
                                     <i class="fas fa-check"></i>

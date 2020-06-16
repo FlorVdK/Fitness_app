@@ -13,6 +13,8 @@ public class Regime implements Comparable<Regime> {
     String coach_comment;
     int completion;
 
+
+
     String execution_date;
 
     int coach_has_trainees_id;
@@ -37,7 +39,10 @@ public class Regime implements Comparable<Regime> {
     }
 
     public String getDescription() {
-        return description;
+        if (description == null){
+            description ="/";
+        }
+          return description;
     }
 
     public void setDescription(String description) {
@@ -53,6 +58,9 @@ public class Regime implements Comparable<Regime> {
     }
 
     public String getTrainee_comment() {
+        if (trainee_comment == null){
+            trainee_comment ="/";
+        }
         return trainee_comment;
     }
 
@@ -61,6 +69,9 @@ public class Regime implements Comparable<Regime> {
     }
 
     public String getCoach_comment() {
+        if (coach_comment == null){
+            coach_comment ="/";
+        }
         return coach_comment;
     }
 

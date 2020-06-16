@@ -1,6 +1,7 @@
 package com.example.fitness_app.network;
 
 import com.example.fitness_app.entities.AccessToken;
+import com.example.fitness_app.entities.ExerciseResponse;
 import com.example.fitness_app.entities.RegimeResponse;
 import com.example.fitness_app.entities.RegimesResponse;
 
@@ -35,4 +36,11 @@ public interface ApiService {
 
     @GET("regime/{id}")
     Call<RegimeResponse> regime(@Path("id") int id);
+
+    @POST("edit_regime")
+    @FormUrlEncoded
+    Call<RegimeResponse> editregime(@Field("regimeId") int regime_id, @Field("completion") int completion);
+
+    @GET("exercise/{id}")
+    Call<ExerciseResponse> exercise(@Path("id") int id);
 }
